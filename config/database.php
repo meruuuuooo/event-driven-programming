@@ -4,7 +4,7 @@ $servername = "localhost";
 $username = "root";
 $password = ""; // Default Password: Blank | Empty
 
-$database_name = "db_tes";
+$database_name = "event_driven_programming"; // Mailem Database Name: "event_driven_programming"
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database_name);
