@@ -9,7 +9,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        ?>
+?>
         <tr>
             <td style="text-align: center;">
                 <?= $row['s_student_id'] ?>
@@ -18,18 +18,21 @@ if ($result->num_rows > 0) {
                 <?= $row['s_last_name'] ?>, <?= $row['s_first_name'] ?>
             </td>
             <td class="d-grid">
-                <button type="button" 
-                class="btn btn-sm btn-block btn-success" 
-                data-bs-toggle="modal"
-                data-bs-target="#view-details">
+                <button type="button" class="btn btn-sm btn-block btn-success" data-bs-toggle="modal" data-bs-target="#view-details">
                     View
                 </button>
             </td>
         </tr>
-        <?php
+    <?php
     }
 } else {
-    echo "0 results";
+    ?>
+    <tr>
+        <td colspan="3" style="text-align: center;" class="text-danger">
+            No records found.
+        </td>
+    </tr>
+    <?php
 }
 
 $conn->close();
