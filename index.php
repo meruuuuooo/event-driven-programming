@@ -38,7 +38,6 @@
                 </ul>
                 <form class="d-flex">
                     <input onkeyup="search(this.value)" class="form-control me-2" type="text" placeholder="Search anything here..">
-                    <button class="btn btn-primary" type="button">Search</button>
                 </form>
             </div>
         </div>
