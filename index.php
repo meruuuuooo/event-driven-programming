@@ -37,15 +37,14 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input onkeyup="search(this.value)" class="form-control me-2" type="text"
-                        placeholder="Search anything here..">
+                    <input onkeyup="search(this.value)" class="form-control me-2" type="text" placeholder="Search anything here..">
                     <button class="btn btn-primary" type="button">Search</button>
                 </form>
             </div>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" style="height: 70vh;">
         <p class="h2 mt-3">Dashboard</p>
         <p>You can view all the recorded data on this dashboard.</p>
         <div class="card mt-3">
@@ -93,9 +92,16 @@
             </div>
         </div>
     </div>
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+            <p>Footer</p>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright: Mailem
+        </div>
+    </footer>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
 </html>
