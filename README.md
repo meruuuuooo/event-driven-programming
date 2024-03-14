@@ -1,1 +1,3 @@
-# Event Driven Programming 2D
+# Midterm - 2D
+
+### Event Driven Programming
