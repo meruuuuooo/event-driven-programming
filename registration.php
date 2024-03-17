@@ -45,7 +45,7 @@
         <p>You can add record for student here.</p>
         <div class="card mt-3">
 
-            <form action="/models/save.php" method="POST">
+            <form action="./models/save.php" method="POST">
                 <div class="card-header">Registration Form</div>
                 <div class="card-body">
                     <?php
